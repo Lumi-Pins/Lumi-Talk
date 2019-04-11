@@ -9,18 +9,6 @@
 #define IDM_START_TALKING 103
 #define IDM_STOP_TALKING 104
 
-
-
-
-
-
-
-
-
-
-
-
-
 #define TEXTBOX_MAIN_X 5
 #define TEXTBOX_MAIN_Y 5
 #define TEXTBOX_MAIN_W 490

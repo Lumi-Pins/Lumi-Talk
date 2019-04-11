@@ -16,6 +16,7 @@
 
 #include <windows.h>
 #include "macro.h"
+#include "letter.h"
 
 LRESULT CALLBACK LumiWndProc(HWND, UINT, WPARAM, LPARAM);
 void Handle_WM_COMMAND(HWND hwnd, WPARAM wParam, LPARAM lParam);
@@ -228,6 +229,7 @@ void Draw_Control(HWND hwnd){
 			NULL,
 			(HINSTANCE)GetWindowLong(hwnd, GWL_HINSTANCE),
 			NULL);
+
 
 }
 
